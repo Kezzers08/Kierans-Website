@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+{
+    padding:0;
+    margin:0;
+}
+
+
+.navbar {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 25px;
+    border-bottom:5px solid cyan;
+}
+
+.navbar ul li {
+    display:inline-block;
+    margin-left:70px;
+    padding-left: 25px;
+}
+
+.background {
+    background:url("weight.jpg ");
+    text-align:center;
+    padding: 250px 50px;
+}
+
+.background h1,h2 {
+    margin:25px 0;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    display: inline-block;
+    color: cyan;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+li a:hover:not(.active){
+    background-color: rgb(0, 0, 0);
+    }
+    
+    .active{
+    background-color: unset;
+    }
+
+    .icon{
+        text-align: center;
+        padding: 20px;
+    }   
+</style>
+<body>
+<div class="navbar">
+    <img src="IFNW.PNG" height="100" width="300">
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About.html">About Us</a></li>
+            <li><a href="Programmes.html">Programmes</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</div>
+<div class="about-section">
+    <h1 style="text-align:center">Our Programmes</h1>
+    <p style="text-align:center">Have a Look to see what we offer</p>
+
+</div>
+
+<h2 style="text-align:center">*********************</h2>
+<div class="row">
+    <div class="column">
+    <div class="card">
+        <img src="beginnner.jpg" alt="Begin" style="width:100%">
+        <div class="container">
+        <h2>Beginner Package</h2>
+        <p class="title">For those just starting out</p>
+        <p>If you've little to no experience and need to get going see here.</p>
+        <p>From £5 per session</p>
+        <p><button class="button">Buy</button></p>
+        </div>
+    </div>
+    </div>
+
+    <div class="column">
+    <div class="card">
+        <img src="Middle.jpg" alt="inter" style="width:100%">
+        <div class="container">
+        <h2>Intermediate</h2>
+        <p class="title">Intermediate Package</p>
+        <p>For those with some experience and looking to increase their fitness levels</p>
+        <p>From £10 per session</p>
+        <p><button class="button">Buy</button></p>
+        </div>
+    </div>
+    </div>
+    
+    <div class="column">
+    <div class="card">
+        <img src="Advanced.jpg" alt="Advanced" style="width:100%">
+        <div class="container">
+        <h2>Advanced</h2>
+        <p class="title">Advanced Package</p>
+        <p>For those who are skilled and looking to maintain or increase at a higher rate</p>
+        <p>From £15 per session</p>
+        <p><button class="button">Buy</button></p>
+        </div>
+    </div>
+    </div>
+</div>
+</body>
+</html>
